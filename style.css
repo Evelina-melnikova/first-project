@@ -1,0 +1,32 @@
+
+.header{
+    min-height: 600px;
+    max-height: 756px;
+    position:absolute;
+    
+}
+.header__logo{
+    height: 32px;
+    width: 228px;
+    position: absolute;
+    top: 30px;
+    left: 64px;
+}
+.header__title{
+    left: 64px;
+    width: 730px;
+    
+}
+.subtitle{
+
+}
+.main-illustration{
+    height: 608px;
+    width: 765px;
+    background-position:right center;
+}
+.square-pic{
+    padding-top: 64px;
+    background-color:#2f80ed;
+    background-size:568 568px;
+}
