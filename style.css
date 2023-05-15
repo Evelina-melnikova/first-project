@@ -1,32 +1,70 @@
 
+.page{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+  
+}
 .header{
     min-height: 600px;
     max-height: 756px;
-    position:absolute;
-    
+    background-color: #f2f2f2;
 }
-.header__logo{
-    height: 32px;
-    width: 228px;
-    position: absolute;
-    top: 30px;
+
+
+.logo_place_header{
+    background-size: 228px 0 32px;
+    top:30px;
     left: 64px;
-}
-.header__title{
-    left: 64px;
-    width: 730px;
-    
-}
-.subtitle{
+    position: absolute;  
+
 
 }
-.main-illustration{
-    height: 608px;
+.header__title{
+    display: flex;
+    top: auto;
+    bottom: auto;
+    left: 64px;
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+    border-color: aqua;
+    border-style: solid;
+    align-self: center;
+    position: relative;
+}
+.header__subtitle{
+    line-height: 25px;
+    font-size: 18px;
+    width: 388px;
+    bottom: 30px;
+    left: 64px;
+    font-weight: normal;
+    position: absolute;    
+
+}
+
+.header__square_pic{
+    top: 64px;
+    right: 0px;
+    background-color: #2f80ed;
+    height: 568px;
+    width: 568px;
+    position: absolute; 
+    display: flex;
+
+}
+.header__main_illustration{
+    background-size: 765px 0 608px;
     width: 765px;
-    background-position:right center;
+    height: 608px;
+    bottom: 0px;
+    right: 0px;
+    background-position: bottom right;
+    display: flex;
+    position: absolute;
 }
-.square-pic{
-    padding-top: 64px;
-    background-color:#2f80ed;
-    background-size:568 568px;
-}
+
+   
