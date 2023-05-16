@@ -4,21 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="file:///Users/evelina/Desktop/dev/first-project/style.css"> 
+  <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
   <div class="page">
     <header class="header">
-        <div class="logo logo_place_header">
-            <img src="file:///Users/evelina/Downloads/logo_place_header.svg" alt="">
-         </div>
+        <div class="logo logo__place__header">
+            <img src="file:///Users/evelina/Downloads/logo_place_header.svg" alt="яндекс практикум">
+        </div>
        <h1 class="header__title">Научиться учиться</h1>
-       <div class="header__square_pic"></div>  
-      <div> <main-illustration class="header__main_illustration">
-        <img src="file:///Users/evelina/Desktop/sprint-1__startkit-3/images/two_again.png" alt="картина опять двойка">
-      </main-illustration> </div>
-      <p class="header__subtitle"> Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="link" href="#">узнать→</a></p>
-    
-    </header>  
-  </div>
+      <div>
+        <square-pic class="header__square-pic"></square-pic>  
+      </div>  
+        <div>
+          <main-illustration class="header__main-illustration">
+          <img src="file:///Users/evelina/Desktop/sprint-1__startkit-3/images/two_again.png" alt="картина опять двойка">
+          </main-illustration>
+        </div>
+    <p class="header__subtitle"> Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="link" href="#">узнать→</a></p>
+   </header>  
+   <section class="description">
+    <ul class="two-columns">
+        <li class="two-columns_brief>">Главные проблемы в обучении</li>
+      <ul class="main-text">
+            <li class="two-columns__paragraph_1">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</li>
+            <li class="two-columns__paragraph_2">Вывод: учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</li>
+            <li class="two-columns__paragraph_3">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</li>
+        </ul>
+    </ul>
+   </section>
+ </div>
 </body>
 </html>

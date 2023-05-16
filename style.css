@@ -1,39 +1,35 @@
 
 .page{
-    background-color: #f2f2f2;
-    width: 100%;
-    height: 100%;
-    position: relative; 
-  
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 .header{
+    background-color: #f2f2f2;
+    height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    background-color: #f2f2f2;
+    display: flex;
+    position: relative;
 }
 
 
-.logo_place_header{
+.logo__place__header{
     background-size: 228px 0 32px;
     top:30px;
     left: 64px;
     position: absolute;  
-
-
 }
 .header__title{
-    display: flex;
-    top: auto;
-    bottom: auto;
     left: 64px;
     width: 730px;
     line-height: 96px;
     font-size: 102px;
     font-weight: 600;
-    border-color: aqua;
-    border-style: solid;
-    align-self: center;
     position: relative;
+    align-self: center;
 }
 .header__subtitle{
     line-height: 25px;
@@ -43,28 +39,58 @@
     left: 64px;
     font-weight: normal;
     position: absolute;    
-
 }
 
-.header__square_pic{
+.header__square-pic{
     top: 64px;
-    right: 0px;
-    background-color: #2f80ed;
     height: 568px;
     width: 568px;
+    right: 0;
+    bottom: 0px;
+    background-color: #2f80ed;
     position: absolute; 
-    display: flex;
-
 }
-.header__main_illustration{
-    background-size: 765px 0 608px;
+
+
+.header__main-illustration{
     width: 765px;
     height: 608px;
-    bottom: 0px;
     right: 0px;
-    background-position: bottom right;
-    display: flex;
+    bottom: 0px;
+    position: right bottom;
     position: absolute;
+    display: flex;
+    justify-content:flex-end;
+    background-size:cover ;
 }
-
-   
+.description{
+    display: flex;
+    padding-top: 100px;
+}
+.two-columns{
+   border: red;
+   border-style: solid;
+}
+.two-columns_brief{
+    border: red;
+    border-style: solid;
+    width: 175px
+}
+.main-text{
+    border: red;
+    border-style: solid;
+    width: 80%; 
+    min-width: 784px
+}
+.two-columns__paragraph_1{
+    border: red;
+    border-style: solid;
+}
+.two-columns__paragraph_2{
+    border: red;
+    border-style: solid;
+}
+.two-columns__paragraph_3{
+    border: red;
+    border-style: solid;
+}
